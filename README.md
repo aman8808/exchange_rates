@@ -8,7 +8,7 @@ Cервис, который обращается к сервису курсов 
 REST API курсов валют - https://docs.openexchangerates.org/  
 REST API гифок - https://developers.giphy.com/docs/api#quick-start-guide  
 (Api Key и Api Id указаны в файле application.properties).
-Сервис написан Spring Boot 2 + Java. 
+Сервис написан на Spring Boot 2 + Java. 
 Запросы приходят на HTTP endpoint, туда передается код валюты.  
 Для взаимодействия с внешними сервисами используется Feign.  
 Все параметры (валюта по отношению к которой смотрится курс,   
